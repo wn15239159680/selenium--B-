@@ -6,6 +6,7 @@ import base64
 from PIL import Image
 import io
 import numpy as  np
+import pickle
 
 #模拟人滑动滑块
 def getTracks(distance, delay=2):
